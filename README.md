@@ -1,4 +1,5 @@
 📚 Boardcamp - Sistema de Locadora de Jogos de Tabuleiro
+
 🎲 Um projeto prático de CRUD para gerenciar uma locadora de jogos de tabuleiro, usando Node.js, Express, PostgreSQL e SQL puro.
 
 ✅ Descrição
@@ -18,6 +19,7 @@ Middlewares, validações e tratamento de erros
 Variáveis de ambiente (.env)
 
 🚦 Funcionalidades
+
 ✔️ CRUD de Jogos
 
 Listar todos os jogos disponíveis
@@ -43,6 +45,7 @@ Finalizar aluguel (cálculo automático de multa por atraso)
 Excluir aluguel (apenas se estiver finalizado)
 
 ⚙️ Tecnologias
+
 Node.js
 
 Express
@@ -56,6 +59,7 @@ pg (PostgreSQL driver)
 Day.js (opcional para manipulação de datas)
 
 🔑 Principais Regras de Negócio
+
 🚫 Jogos: nomes não podem ser duplicados.
 
 🚫 Clientes: CPF único, telefone válido.
@@ -66,7 +70,7 @@ Day.js (opcional para manipulação de datas)
 
 
 📫 Rotas Principais
-Verbo	Rota	Descrição
+
 GET	/games	Lista todos os jogos
 POST	/games	Cria novo jogo
 GET	/customers	Lista todos os clientes
