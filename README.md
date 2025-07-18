@@ -56,7 +56,6 @@ dotenv
 
 pg (PostgreSQL driver)
 
-Day.js (opcional para manipulação de datas)
 
 🔑 Principais Regras de Negócio
 
@@ -72,14 +71,23 @@ Day.js (opcional para manipulação de datas)
 📫 Rotas Principais
 
 GET	/games	Lista todos os jogos
+
 POST	/games	Cria novo jogo
+
 GET	/customers	Lista todos os clientes
+
 GET	/customers/:id	Busca cliente por ID
+
 POST	/customers	Cria novo cliente
+
 GET	/rentals	Lista todos os aluguéis
+
 POST	/rentals	Cria novo aluguel
+
 POST	/rentals/:id/return	Finaliza aluguel
+
 DELETE	/rentals/:id	Deleta aluguel (se finalizado)
+
 
 🚀 Autor
 Desenvolvido por Alyson Felipe Ozório
